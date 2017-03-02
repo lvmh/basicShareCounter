@@ -48,6 +48,6 @@ $.fn.generateShareCount = function(url) {
 	    totalCount += facebookCount + redditCount + linkedinCount;
 
 	    //update the text
-	    object.text('total: '+totalCount);
+	    object.text(totalCount);
 	});
 }
