@@ -7,5 +7,6 @@ A basic JQuery Share Counter that provides a share total of facebook, reddit and
 2. At the relevant time, call the function
 
 `$('element-to-replace').generateShareCount("url");`
-eg.
+
+example: Replace .helper element with share count for http://google.com.
 `$('.helper').generateShareCount("http://google.com");`
